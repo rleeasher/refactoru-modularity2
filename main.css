@@ -127,12 +127,11 @@ a {
 	font-size: 12px;
 }
 
-.container {
-	position: relative;
-}
 .tab-container{
+	position: relative;
+	top: 1px;
 	display: block;
-	height: 26px;
+	height: 28px;
 }
 
 .tabs {
