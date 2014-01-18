@@ -1,1 +1,159 @@
 /* ADD YOUR STYLES HERE */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; border:none;
+ }
+
+
+a {
+	text-decoration: none;
+	font:inherit;
+	color: inherit;
+}
+
+.samesize-container{
+	max-width: 100%;
+	margin:auto;
+	text-align: center;
+}
+.samesize-container img{
+	padding: 20px;
+}
+.random-element-center{
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.element-css-common {
+	display: inline-block;
+	padding: 15px;
+	vertical-align: top;
+}
+
+.list-container {
+	text-align: left;
+	width: auto;
+}
+
+.vertical-center {
+	padding: 40px 0px;
+	vertical-align: center;
+}
+
+.inline-list-block li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+
+}
+
+.button-default {
+	background-color: #ED828A;
+	border: none;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.button2:hover {
+	background-color: black;
+}
+
+.button1 {
+	height: 60px;
+	width: 200px;
+	padding: 10px 30px;
+	border-radius: 4px;
+}
+
+.button2 {
+	height: 40px;
+	width: 130px;
+	padding: 11px 20px;
+	border-radius: 4px;
+}
+
+
+.button3 {
+	height: 30px;
+	width: 100px;
+	padding: 8px 10px;
+	border-radius: 4px;
+}
+
+.pagination {
+	width: auto;
+}
+.pagination li{
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 6px;
+	width: 40px;
+	color: #ED828A;
+	border-bottom: 3px solid #ED828A;
+}
+
+.pagination li:first-child, .pagination li:last-child{
+	border: none;
+}
+
+.pagination li:nth-child(5){
+	color:lightgray;
+	border-bottom: 3px solid lightgray;
+
+}
+
+
+.img-container {
+ 	clear: both;
+}
+
+.img-container img {
+	max-width: 10%;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+
+.comment-entry{
+	max-width: 90%;
+	display: block;
+	float: left;
+}
+
+.comment-entry time {
+	color: gray;
+	font-size: 12px;
+}
+
+.container {
+	position: relative;
+}
+.tab-container{
+	display: block;
+	height: 26px;
+}
+
+.tabs {
+	border-radius: 4px 4px 0 0;
+	padding: 4px;
+	border: 1px solid gray;
+	color: blue;
+	margin-left: 6px;
+
+}
+
+.active-tab {
+	z-index: 2;
+	border-bottom: 1px solid white;
+}
+
+.tab-content{
+	clear: both;
+	display: block;
+	padding: 4px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	z-index: 0;
+}
